@@ -27,7 +27,6 @@ if (play === "Yes") {
                 break;
             } if (userHealth <= 0) {
                 console.log(`${user} has died. The Almighty Grant wins.`)
-                grantWins++;
                 break;
             }
         }
